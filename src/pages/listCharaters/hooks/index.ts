@@ -63,7 +63,6 @@ const useListCharacters = () => {
   };
   const handleSelectChange = async (event: any) => {
     if (event.target.value) {
-      console.log("se limpio", event.target.value);
       setSelectedValue(event.target.value);
       setNumberPage(0);
     }
